@@ -4,7 +4,7 @@ import {BiSearchAlt2} from 'react-icons/bi'
 
 const Header = () => {
   return (
-    <div className='h-[100vh] bg-gradient-to-r from-black to-blue-400'>
+    <div id='header' className='h-[100vh] bg-gradient-to-r from-black to-blue-400'>
         <div className='w-[1200px] m-auto'>
             <div className='flex justify-evenly h-20 items-center text-2xl cursor-pointer  text-white'>
                 <p className='text-orange-500 font-bold'>WORK</p>
