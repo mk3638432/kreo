@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: ultra;
+    src: url(../Font/BUTTERSHINE-SERIF.woff);
+}
+*{
+    font-family: ultra;
+}
