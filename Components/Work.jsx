@@ -1,8 +1,10 @@
 import React from 'react'
+import Integrated from './Integrated'
+import Logo from './Logo'
 
 const Work = () => {
   return (
-    <div className='h-[140vh] mt-20'>
+    <div className='h-[240vh] mt-20'>
         <div className='w-[1200px] m-auto flex justify-between'>
             <div className='text-5xl font-bold'>OUR WORK</div>
             <div className='ml-20 text-xl'>
@@ -16,6 +18,8 @@ const Work = () => {
             <button className='border rounded-xl p-4 mt-10 px-20 hover:bg-orange-500 hover:text-white  border-orange-400'>DOWNLOAD KREO BROCHURE</button>
             </div>
         </div>
+            <Integrated/>
+            <Logo/>
     </div>
   )
 }
